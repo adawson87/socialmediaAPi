@@ -5,4 +5,4 @@ mongoose.connect('mongodb://localhost/developersApplications', {
   useUnifiedTopology: true,
 });
 
-module.exports = connection;
+module.exports = mongoose.connection;
