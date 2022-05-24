@@ -29,7 +29,9 @@ const UserController = {
               {runValidators: true, new: true}
 
             .then((dbUserData) => res.json(dbUserData))
-           .catch((err) => res.status(500).json(err))
+            .catch((err) => res.status(500).json(err);
 
-      },
+          },
+
+      
     }
